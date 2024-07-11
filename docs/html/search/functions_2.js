@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['getavailability_88',['GetAvailability',['../classCar.html#a48f56ad767301351482afef84e7b9a74',1,'Car::GetAvailability()'],['../classHelicopter.html#a41053a54e3b6a5cb1581908b6325e004',1,'Helicopter::GetAvailability()'],['../classUFO.html#ae259f26a8c35060b8ce3a3bad697dd40',1,'UFO::GetAvailability()']]],
+  ['getdestination_89',['GetDestination',['../classCar.html#aac2af3568b3baa238a55f9142598c24d',1,'Car::GetDestination()'],['../classHelicopter.html#adc65020147c682911cc8f15ab6bb11d6',1,'Helicopter::GetDestination()'],['../classUFO.html#ab43d2e316ef65a8b34a79121f96ad263',1,'UFO::GetDestination()']]],
+  ['getdetails_90',['GetDetails',['../classCar.html#a26443b4a303c4896b8d1e8a8a97f6d11',1,'Car::GetDetails()'],['../classHelicopter.html#aea52c9baf3fee25a79eeef8e796fee88',1,'Helicopter::GetDetails()'],['../classUFO.html#aec8298e623555b6b644d2894a61f95ae',1,'UFO::GetDetails()']]],
+  ['getdirection_91',['GetDirection',['../classCar.html#ab75977e98e1265cd6dd391dfe3203886',1,'Car::GetDirection()'],['../classHelicopter.html#aef5fe3c3a5029d6da923f123ed308898',1,'Helicopter::GetDirection()'],['../classUFO.html#af2e54ed8d7f1b78ffe48e1ce3266666f',1,'UFO::GetDirection()']]],
+  ['getposition_92',['GetPosition',['../classCar.html#a15bfb55a579f0a11f18fa339680baece',1,'Car::GetPosition()'],['../classHelicopter.html#a8db916733a82877fa98f9223854cdd54',1,'Helicopter::GetPosition()'],['../classUFO.html#a6e8befd7a59dadd2021fc733a7c0a392',1,'UFO::GetPosition()']]],
+  ['getspeed_93',['GetSpeed',['../classCar.html#a4fb5c6e642d6a70d3a9fcc1012d4e561',1,'Car::GetSpeed()'],['../classHelicopter.html#aff4570a488480c2cf70a6f96cec52d37',1,'Helicopter::GetSpeed()'],['../classUFO.html#a3037919c4b733ae5432b508be752c0b8',1,'UFO::GetSpeed()']]],
+  ['getstrategyname_94',['GetStrategyName',['../classCar.html#a6229ffbaa4f653730d2d7a5cebc68d0c',1,'Car::GetStrategyName()'],['../classHelicopter.html#a25faf82e2c4634007db1c842a1796795',1,'Helicopter::GetStrategyName()'],['../classUFO.html#a35622121277f9edb77477abab50b9875',1,'UFO::GetStrategyName()']]]
+];

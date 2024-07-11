@@ -1,0 +1,341 @@
+\hypertarget{classUFO}{}\doxysection{U\+FO Class Reference}
+\label{classUFO}\index{UFO@{UFO}}
+
+
+Inheritance diagram for U\+FO\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classUFO__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for U\+FO\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classUFO__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUFO_a180ad595098a996441def5a35627bb0f}{U\+FO}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Constructor of the car class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUFO_a06160755e936bd9b0eb2e95eff550d6d}\label{classUFO_a06160755e936bd9b0eb2e95eff550d6d}} 
+\mbox{\hyperlink{classUFO_a06160755e936bd9b0eb2e95eff550d6d}{$\sim$\+U\+FO}} () override=default
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em gets the internal variable position \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em gets the internal variable direction \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classUFO_ab43d2e316ef65a8b34a79121f96ad263}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em gets the internal variable destination \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}{Get\+Availability}} () const
+\begin{DoxyCompactList}\small\item\em gets the internal variable availability \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classUFO_aec8298e623555b6b644d2894a61f95ae}{Get\+Details}} () const override
+\begin{DoxyCompactList}\small\item\em method to return the details of the class \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classUFO_a3037919c4b733ae5432b508be752c0b8}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em method to return the speed of the class \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classUFO_a35622121277f9edb77477abab50b9875}{Get\+Strategy\+Name}} ()
+\begin{DoxyCompactList}\small\item\em method to return the strategyname of the class \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a05760d0ac2907b43132bd2c64110ab1d}{Set\+Availability}} (bool choice)
+\begin{DoxyCompactList}\small\item\em method to set the private varibale availability \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em method to set the private varibale position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a38c653cd98b631e45bebf5b53d16dad6}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em method to set the private varibale direction \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_ad65e47d605da582d0dbfdeb60caa601a}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em method to set the private varibale destination \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a277fd2ee92dbb2b170f2d8433d879de4}{Set\+Strategy\+Name}} (std\+::string strategy\+Name\+\_\+)
+\begin{DoxyCompactList}\small\item\em method to set the private varibale strategy\+Name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em method to rotate a car instance \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classUFO_a42b27ffbb367adb1512697fa83688bcc}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em method to move the car instance according to the strategy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUFO_a180ad595098a996441def5a35627bb0f}\label{classUFO_a180ad595098a996441def5a35627bb0f}} 
+\index{UFO@{UFO}!UFO@{UFO}}
+\index{UFO@{UFO}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{UFO()}{UFO()}}
+{\footnotesize\ttfamily U\+F\+O\+::\+U\+FO (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Constructor of the car class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & json object to initilize the instace of the class with \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}\label{classUFO_ae259f26a8c35060b8ce3a3bad697dd40}} 
+\index{UFO@{UFO}!GetAvailability@{GetAvailability}}
+\index{GetAvailability@{GetAvailability}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetAvailability()}{GetAvailability()}}
+{\footnotesize\ttfamily bool U\+F\+O\+::\+Get\+Availability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the internal variable availability 
+
+\begin{DoxyReturn}{Returns}
+internal variable availability 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ab43d2e316ef65a8b34a79121f96ad263}\label{classUFO_ab43d2e316ef65a8b34a79121f96ad263}} 
+\index{UFO@{UFO}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the internal variable destination 
+
+\begin{DoxyReturn}{Returns}
+internal variable destination 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_aec8298e623555b6b644d2894a61f95ae}\label{classUFO_aec8298e623555b6b644d2894a61f95ae}} 
+\index{UFO@{UFO}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object U\+F\+O\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+method to return the details of the class 
+
+\begin{DoxyReturn}{Returns}
+details private variable 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}\label{classUFO_af2e54ed8d7f1b78ffe48e1ce3266666f}} 
+\index{UFO@{UFO}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the internal variable direction 
+
+\begin{DoxyReturn}{Returns}
+internal variable direction 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}\label{classUFO_a6e8befd7a59dadd2021fc733a7c0a392}} 
+\index{UFO@{UFO}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} U\+F\+O\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the internal variable position 
+
+\begin{DoxyReturn}{Returns}
+internal variable position 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a3037919c4b733ae5432b508be752c0b8}\label{classUFO_a3037919c4b733ae5432b508be752c0b8}} 
+\index{UFO@{UFO}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float U\+F\+O\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to return the speed of the class 
+
+\begin{DoxyReturn}{Returns}
+speed private variable 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a35622121277f9edb77477abab50b9875}\label{classUFO_a35622121277f9edb77477abab50b9875}} 
+\index{UFO@{UFO}!GetStrategyName@{GetStrategyName}}
+\index{GetStrategyName@{GetStrategyName}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{GetStrategyName()}{GetStrategyName()}}
+{\footnotesize\ttfamily std\+::string U\+F\+O\+::\+Get\+Strategy\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to return the strategyname of the class 
+
+\begin{DoxyReturn}{Returns}
+strategy\+Name private variable 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}\label{classUFO_a6f687e3b98658cabf046fd749b4fdfcb}} 
+\index{UFO@{UFO}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+method to rotate a car instance 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & determines the angle of rotation \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a05760d0ac2907b43132bd2c64110ab1d}\label{classUFO_a05760d0ac2907b43132bd2c64110ab1d}} 
+\index{UFO@{UFO}!SetAvailability@{SetAvailability}}
+\index{SetAvailability@{SetAvailability}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetAvailability()}{SetAvailability()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Availability (\begin{DoxyParamCaption}\item[{bool}]{choice }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+method to set the private varibale availability 
+
+
+\begin{DoxyParams}{Parameters}
+{\em choice} & is our choice of value for the variable \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ad65e47d605da582d0dbfdeb60caa601a}\label{classUFO_ad65e47d605da582d0dbfdeb60caa601a}} 
+\index{UFO@{UFO}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to set the private varibale destination 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & is our choice of value for the variable \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a38c653cd98b631e45bebf5b53d16dad6}\label{classUFO_a38c653cd98b631e45bebf5b53d16dad6}} 
+\index{UFO@{UFO}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to set the private varibale direction 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & is our choice of value for the variable \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}\label{classUFO_ab898f6962b6e17b66a730ee8acacaf0a}} 
+\index{UFO@{UFO}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to set the private varibale position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & is our choice of value for the variable \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a277fd2ee92dbb2b170f2d8433d879de4}\label{classUFO_a277fd2ee92dbb2b170f2d8433d879de4}} 
+\index{UFO@{UFO}!SetStrategyName@{SetStrategyName}}
+\index{SetStrategyName@{SetStrategyName}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{SetStrategyName()}{SetStrategyName()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Set\+Strategy\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{strategy\+Name\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+method to set the private varibale strategy\+Name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy\+Name\+\_\+} & is our choice of value for the variable \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classUFO_a42b27ffbb367adb1512697fa83688bcc}\label{classUFO_a42b27ffbb367adb1512697fa83688bcc}} 
+\index{UFO@{UFO}!Update@{Update}}
+\index{Update@{Update}!UFO@{UFO}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void U\+F\+O\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+method to move the car instance according to the strategy 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & sets he maginitude of the move \\
+\hline
+{\em scheduler} & is a vector of all enitities being simulated ~\newline
+ \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/teixe029/csci-\/3081w-\/f22/\+Team-\/010-\/45-\/lab10/libs/transit/include/U\+F\+O.\+h\item 
+/home/teixe029/csci-\/3081w-\/f22/\+Team-\/010-\/45-\/lab10/libs/transit/src/U\+F\+O.\+cc\end{DoxyCompactItemize}
